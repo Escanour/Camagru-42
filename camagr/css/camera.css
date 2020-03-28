@@ -1,0 +1,127 @@
+#grad {
+    background-image: linear-gradient(to right, #00d2ff 20% , #3a7bd5);
+    margin-bottom: 50px;
+}
+.camagru {
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+  color: #FF4E6A;
+  position:absolute;
+  top:10px;
+  left:10px;
+}
+
+  #video {
+    width: 100%;
+  }
+  #canvas{
+    width: 100%;
+  }
+
+  .outerContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+  }
+  .upload{
+    margin-left: 12%; 
+  }
+  .no{
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+  .p {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    
+  }
+  .k{
+  height: 20px;
+  }
+  .p1{
+  background-color: whitesmoke;
+  height:18%;
+  width:95%;
+  border-radius: 25px;
+  padding: 35px;
+  padding-right: 0px;
+  position: static;
+  top: 1130px;
+  left: 20px;
+  display: contents;
+  }
+.emoji
+{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #00d2ff;
+  flex-direction: row;
+  overflow-x:scroll; 
+}
+#sticker
+{
+    position: absolute;
+    display: block;
+    top: 600px;
+    left: 10px;
+    height: 10vmin;
+    width: 10vmin;
+}
+#stickers
+{
+    position: absolute;
+    display: block;
+    top: 5px;
+    left: 5px;
+    height: 10vmin;
+    width: 10vmin;
+}
+.box{
+  background-color: whitesmoke;
+  height:5vmin;
+  width:40vmin;
+  padding-top: 1px;
+  display: block;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 3px solid black;
+  margin-left: 10px;
+}
+
+.right {
+    width: 370px;
+    height: 685px;
+    border: 2px solid black;
+    float: right;
+    border-radius: 10px;
+    overflow:auto;
+    position: absolute;
+    top :20%;
+    left:57%;
+}
+@media only screen and (max-width: 600px){
+  .right{
+    top :95%;
+    left:20%;
+  }
+}
+
+#postes{
+  padding: 15px;
+  border-radius: 30px;
+}
+.postes{
+  width: 15%;
+}
+
+.copyright{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 12pt;
+  background-image: linear-gradient(to right, #00d2ff 20% , #3a7bd5);
+  width: 100%;
+  text-align: center;
+}
+
